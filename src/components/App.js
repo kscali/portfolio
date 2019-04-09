@@ -3,6 +3,7 @@ import Projects from './Project';
 import SocialProfiles from './SocialProfiles';
 import profile from '../assets/github_icon.png';
 import Title from './Title';
+import Jokes from './Jokes';
 
 class App extends React.Component {
   constructor(props) {
@@ -40,6 +41,8 @@ class App extends React.Component {
         <Projects />
         <hr />
         <SocialProfiles />
+        <hr />
+        <Jokes />
       </div>
     )
   }

@@ -4,7 +4,8 @@ const TITLES = [
   'a software engineer',
   'a life-long learner',
   'a project enthusiast',
-  'a gamer by heart'
+  'a gamer by heart',
+  'I love to laugh'
 ];
 
 class Title extends React.Component {
