@@ -10,7 +10,7 @@ const SOCIAL_PROFILES = [
   },
   {
     id: 2,
-    link: 'linkedin.com',
+    link: 'https://www.linkedin.com/in/koychian-saeteurn-98169a167',
     image: linkedinIcon
   },
   {
