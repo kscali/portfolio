@@ -1,7 +1,7 @@
 import React from 'react';
 import Projects from './Project';
 import SocialProfiles from './SocialProfiles';
-import profile from './assets/github_icon.png';
+import profile from '../assets/github_icon.png';
 import Title from './Title';
 
 class App extends React.Component {

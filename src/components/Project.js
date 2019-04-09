@@ -1,9 +1,8 @@
 import React from 'react';
-import PROJECTS from './data/projects';
+import PROJECTS from '../data/projects';
 
-class Project extends React.Component {
-  render() {
-    const { title, image, description, link } = this.props.project; 
+const Project = (props) => {
+    const { title, image, description, link } = props.project; 
     return (
       <div style={{ display: 'inline-block', width: 300, margin: 10 }}>
         <h3>{ title }</h3>
@@ -12,11 +11,9 @@ class Project extends React.Component {
         <a href={ link }>{ link }</a>
       </div>
     )
-  }
-}
+};
 
-class Projects extends React.Component {
-  render() {
+const Projects = () => {
     return (
       <div>
         <h2>Highlighted Projects</h2>
@@ -31,7 +28,6 @@ class Projects extends React.Component {
         </div>
       </div>
     )
-  }
 }
 
 export default Projects; 
