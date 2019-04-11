@@ -5,6 +5,7 @@ import profile from '../assets/github_icon.png';
 import Title from './Title';
 import Jokes from './Jokes';
 
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -20,13 +21,13 @@ class App extends React.Component {
   render() {
      return (
       <div>
-          <img src={ profile } alt="profile-pic" className="profile" />
+        <img src={ profile } alt="profile-pic" className="profile" />
         <h1>Hello. Welcome To My Page</h1>
         <p>My name is Koy.</p>
         <Title />
         <p>I'm always looking forward to working on meaningful projects</p>
          {this.state.displayBio ? (<div>
-           <p>I live in the Bay Area of California. I love to learn and I code everyday.</p>
+           <p>I live in the Bay Area of California. I love to learn and I try to code everyday.</p>
            <p>Although my favorite language is Javascript, I like to expand my knowledge and build
              projects with other languages and frameworks.</p>
            <p>Besides coding, I love to read and listen to music.</p>
@@ -47,5 +48,6 @@ class App extends React.Component {
     )
   }
 }
+
 
 export default App; 
